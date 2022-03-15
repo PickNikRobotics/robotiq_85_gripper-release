@@ -1,0 +1,12 @@
+Source: ros-rolling-robotiq-85-gripper
+Section: misc
+Priority: optional
+Maintainer: Patrick Hussey <dev@stanleyinnovation.com>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-robotiq-85-gripper
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-robotiq-85-description, ros-rolling-robotiq-85-driver, ros-rolling-robotiq-85-msgs, ros-rolling-ros-workspace
+Description: Robotiq 85 Gripper Package
